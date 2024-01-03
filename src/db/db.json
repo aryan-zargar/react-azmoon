@@ -1,0 +1,143 @@
+{
+  "Books": [
+    {
+      "id": 1,
+      "name": "alice in wonderworld",
+      "author": "jk.Rolin",
+      "ISBN": 1111,
+      "price": 50,
+      "category": [
+        "comedy",
+        "Drama"
+      ]
+    },
+    {
+      "name": "SquidGame",
+      "author": "kim jung un",
+      "ISBN": 9999,
+      "price": 50,
+      "category": [
+        "Drama",
+        "KoreanDrama",
+        "Action"
+      ],
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "pass",
+      "privilage": 1,
+      "penalty": 0
+    },
+    {
+      "username": "root",
+      "password": "root",
+      "privilage": 1,
+      "penalty": 0,
+      "id": 2
+    },
+    {
+      "username": "normalguy",
+      "password": "verynormal",
+      "privilage": 0,
+      "penalty": 0,
+      "id": 3
+    }
+  ],
+  "Borrows": [
+    {
+      "id": 1,
+      "date": "2023-12-15",
+      "books": [
+        "alice in wonderworld",
+        "my grandmas pill"
+      ],
+      "user": "normalguy",
+      "returned": 0
+    },
+    {
+      "date": "2023-12-11",
+      "books": [
+        "SquidGame",
+        "AliceInWonderLand"
+      ],
+      "user": "normalguy",
+      "returned": 0,
+      "id": 2
+    },
+    [
+      {
+        "date": "2023-12-15",
+        "books": [
+          "alice in wonderworld",
+          "my grandmas pill"
+        ],
+        "user": "mm",
+        "returned": 0
+      }
+    ],
+    {
+      "date": "2023-12-15",
+      "books": [
+        "alice in wonderworld",
+        "my grandmas pill"
+      ],
+      "user": "mm",
+      "returned": 0,
+      "id": 4
+    },
+    {
+      "date": "2024-01-01",
+      "books": [
+        "alice in wonderworld"
+      ],
+      "user": "normalguy",
+      "returned": 0,
+      "id": 5
+    },
+    {
+      "date": "2024-01-01",
+      "books": [
+        "SquidGame"
+      ],
+      "user": "normalguy",
+      "returned": 1,
+      "id": 6
+    },
+    {
+      "date": "2024-01-03",
+      "books": [
+        "SquidGame"
+      ],
+      "user": "root",
+      "returned": 0,
+      "id": 7
+    },
+    {
+      "date": "2024-01-03",
+      "books": [
+        "SquidGame"
+      ],
+      "user": "normalguy",
+      "returned": 1,
+      "id": 8
+    }
+  ],
+  "buys": [
+    {
+      "user": "root",
+      "name": "SquidGame",
+      "price": 50,
+      "id": 1
+    },
+    {
+      "name": "SquidGame",
+      "price": 50,
+      "user": "normalguy",
+      "id": 2
+    }
+  ]
+}
